@@ -67,7 +67,7 @@ If you're not using a bundler like Browserify or Webpack, simply add the script 
 <script src="https://unpkg.com/@srph/react-hoc-compose/dist/react-hoc-compose.min.js"></script>
 ```
 
-This library is exposed as `ReactUploadi` (e.g., `<ReactUploadi />`).
+This library is exposed as `ReactHOCCompose` (e.g., `<ReactHOCCompose />`).
 
 ## Usage
 ```js
