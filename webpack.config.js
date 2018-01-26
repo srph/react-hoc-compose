@@ -3,8 +3,8 @@ var path = require('path')
 
 module.exports = {
   entry: {
-    'react-uploadi': './src/index.js',
-    'react-uploadi.min': './src/index.js'
+    'react-hoc-compose': './src/index.js',
+    'react-hoc-compose.min': './src/index.js'
   },
 
   externals: {
@@ -19,12 +19,6 @@ module.exports = {
       commonjs2: 'react-dom',
       commonjs: 'react-dom',
       amd: 'react-dom'
-    },
-    'react-dnd': {
-      root: 'ReactDND',
-      commonj2: 'react-dnd',
-      commonjs: 'react-dnd',
-      amd: 'react-dnd'
     }
   },
 
@@ -33,7 +27,7 @@ module.exports = {
     filename: '[name].js',
     chunkFilename: '[id].chunk.js',
     libraryTarget: 'umd',
-    library: 'ReactUploadi',
+    library: 'ReactHOCCompose',
   },
 
   plugins: [
