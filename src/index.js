@@ -13,7 +13,7 @@ class Compose extends React.Component {
 
 Compose.propTypes = {
   hoc: T.func.isRequired,
-  component: T.oneOf([T.element, T.func])
+  component: T.oneOfType([T.element, T.func])
 }
 
 export default Compose
